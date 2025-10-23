@@ -9,9 +9,9 @@
   --color-gray-500: #262626;
   --color-gray-600: #1A1A1A;
   --color-gray-700: #0D0D0D;
+  --color-danger: #E25858;
   --color-blue: #4EA8DE;
-  --color-purple: #5E60CE;
-  --color-danger: E25858h;
+  --color-purple: #8284FA;
   --color-blue-dark: #1E6F9F;
-  --color-purple-dark: #8284FA;
+  --color-purple-dark: #5E60CE;
 }

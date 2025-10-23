@@ -2,7 +2,7 @@ import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
 import { CirclePlus } from 'lucide-react'
 
-const Form = () => {
+const CreateTaskForm = () => {
   return (
     <form className="flex items-center justify-center gap-6">
       <Input 
@@ -22,4 +22,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default CreateTaskForm;
