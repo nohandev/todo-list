@@ -1,10 +1,5 @@
 import React from 'react'
-
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
-  icon?: React.ReactNode;
-  className?: string;
-}
+import type { ButtonProps } from '@/types/buttonTypes'
 
 export const Button : React.FC<ButtonProps> = ({
   children,

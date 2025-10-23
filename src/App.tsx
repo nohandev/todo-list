@@ -1,5 +1,6 @@
 import Logo from '@/assets/Logo.png'
-import Form from '@/components/Form'
+import Form from '@/components/CreateTaskForm'
+import Tasks from '@/components/Tasks'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       </div>
       <div className='-my-6 w-3xl mx-auto'>
         <Form/>
+        <Tasks/>
       </div>
     </section>
   )
