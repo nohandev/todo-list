@@ -10,10 +10,11 @@ const Tasks = () => {
       </div>
 
       <div className='flex flex-col gap-4 mt-10'>
-       <Task/>
-       <Task/>
-       <Task/>
-       <Task/>
+       <Task content='Algum exemplo de tarefa que vai vim de algum lugar xD'/>
+       <Task content='Algum exemplo de tarefa que vai vim de algum lugar xD'/>
+       <Task content='Algum exemplo de tarefa que vai vim de algum lugar xD'/>
+       <Task content='Algum exemplo de tarefa que vai vim de algum lugar xD'/>
+       
       </div>
     </section>
   )
