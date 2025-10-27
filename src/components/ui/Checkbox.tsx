@@ -1,11 +1,7 @@
 import React from "react";
+import type { CheckboxProps } from '@/types/checkboxType'
 
-interface CheckboxProps {
-  checked: boolean;
-  onChange: (checked: boolean) => void;
-}
-
-export const Checkbox: React.FC<CheckboxProps> = ({ checked, onChange }) => {
+export const Checkbox: React.FC<CheckboxProps> = ({ checked, onChange, onClick, data}) => {
   return (
     <label className="flex items-center cursor-pointer">
       <input
@@ -13,6 +9,8 @@ export const Checkbox: React.FC<CheckboxProps> = ({ checked, onChange }) => {
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
         className="peer hidden"
+        onClick={onClick}
+        data-id={data}
       />
       <span
         className={`

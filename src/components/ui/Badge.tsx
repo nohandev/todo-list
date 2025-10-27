@@ -1,13 +1,8 @@
 import React from 'react'
-
-interface BadgeProps  {
-  amount: string;
-  children?: React.ReactNode;
-  className?: string
-}
+import type { BadgeProps } from '@/types/badgeType'
 
 const Badge: React.FC<BadgeProps> = ({ 
-  amount = 0, 
+  amount, 
   children,
   className
 }) => {
