@@ -35,7 +35,7 @@ Além disso, serviu como prática para compreender melhor o fluxo de dados, a co
 
   ```
   # Clone o repositório
-  git clone https://github.com/seu-usuario/todo-list.git
+  git clone https://github.com/nohandev/todo-list.git
 
   # Entre na pasta do projeto
   cd todo-list
@@ -55,6 +55,6 @@ O layout foi baseado em um design do Figma, que serviu de referência para a est
 
 🔗 [Visualizar Design no Figma](https://www.figma.com/design/7eftdLqhkCPmKHGMCNK7lx/ToDo-List-%E2%80%A2-Desafio-React--Copy---Community-?node-id=0-1&p=f&t=5zDrser3GnN8MaQ7-0)
 
-___
+---
 
 Projeto desenvolvido por [@nohandev](https://github.com/nohandev)
