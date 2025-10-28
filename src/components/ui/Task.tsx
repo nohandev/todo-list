@@ -41,7 +41,7 @@ const Task: React.FC<TaskProps> = ({content, id, isCompleted}) => {
       <Checkbox checked={isChecked} onChange={setIsChecked} data={id} onClick={ChangeCompletedTask}/>
 
       <p 
-        className={`font-medium ${isChecked ? 'text-gray-300 line-through' : 'text-gray-100'}`}>
+        className={`font-medium break-all ${isChecked ? 'text-gray-300 line-through' : 'text-gray-100'}`}>
           {content}
       </p>
 
