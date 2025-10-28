@@ -14,7 +14,7 @@ const TaskInfo = () => {
  
 
   return (
-    <div className='flex justify-between mt-8'>
+    <div className='flex p-4 sm:p-0 justify-between mt-8'>
       <Badge amount={allTasks.length} className='text-blue'>Tarefas criadas</Badge>
       <Badge amount={`${tasksCompleted} de ${allTasks.length}`} className='text-purple'>Concluidas</Badge>        
     </div>

@@ -9,7 +9,7 @@ const TaskList = () => {
 
   return (
     <section className='mt-8'>
-      <div className='flex flex-col gap-4 mt-10 '>
+      <div className='flex flex-col gap-4 p-4 sm:p-0 mt-10'>
         {allTasks.map(task => ( 
           <Task 
             key={task.id} 

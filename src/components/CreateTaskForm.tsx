@@ -25,7 +25,7 @@ const CreateTaskForm = () => {
   }
 
   return (
-    <form onSubmit={createTask} className="flex items-center justify-center gap-6">
+    <form onSubmit={createTask} className="flex flex-col p-4 sm:flex-row sm:p-0 items-center justify-center gap-6">
       <Input 
         type="text" 
         value={contentTask}

@@ -13,10 +13,10 @@ const App = () => {
   return (
     <TaskDataContext.Provider value={{allTasks, setAllTasks}}>
     <section className='min-h-dvh bg-gray-600'>
-      <div className='h-48 bg-gray-700 flex justify-center items-center'>
+      <div className='hidden h-48 bg-gray-700 sm:flex justify-center items-center'>
         <img src={Logo} alt='Logo Rocket'/>
       </div>
-      <div className='-my-6 w-3xl mx-auto'>
+      <div className='sm:-my-6 sm:w-3xl mx-auto'>
         <CreateTaskForm/>
         <TaskInfo/>
         {allTasks.length ? <TaskList/> : <EmptyTaskPage/>}
